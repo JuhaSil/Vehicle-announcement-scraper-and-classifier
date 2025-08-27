@@ -1,4 +1,4 @@
-# Vehicle announcement scraper + classifier
+# Vehicle announcement scraper and classifier
 
 Final project for the Building AI course.
 
