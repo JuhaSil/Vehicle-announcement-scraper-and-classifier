@@ -15,6 +15,8 @@ If you want to find best deals from vehicle market, you have to be quick! First 
 
 ## How is it used?
 
+### Creating a search
+
 User is able to set parameters for announcements he/she is willing to find
 
 * Location (Max distance to point X)
@@ -32,7 +34,9 @@ User is able to set parameters for announcements he/she is willing to find
 * Etc.
 * Possibility to add almost any filter and AI would get a hold of it? Like searching for some exact equipment, color, interior, etc.
 
-After defining the vehicle, it would be also important to compare the asking price to similar vehicles on the market and give a commercial score for it.
+### Classifying results
+
+After finding a suitable vehicle, it would be also important to compare the asking price to similar vehicles on the market and give a commercial score for it.
 
   * We would have to run certain corrections to the price to see how it compares to other similar vehicles. Some vehicle might seem
     cheap, but it has a lot of defects and when those are taken also into account, price is even higher than other similar vehicles:
@@ -46,7 +50,7 @@ After defining the vehicle, it would be also important to compare the asking pri
     
       * Remember to count also VAT differences, transport costs, local taxes (for example car tax in Finland), registration costs...
       * It is always easier to sell a car which is already on local market, but this information is important to avoid risks.
-      * If import price is way cheaper than local price -> Big risk that local prices are coming down rapidly or consumers end up                purchasing their vehicles from abroad.
+      * If import price is way cheaper than local price -> Big risk that local prices are coming down rapidly or consumers end up purchasing their vehicles from abroad.
       * Import prices are a lot higher than local prices -> Possibility to export the vehicle?
 
   * After comparing to current market, we should also check the sales history of similar vehicles:
@@ -62,13 +66,21 @@ After defining the vehicle, it would be also important to compare the asking pri
       * Little more mileage allowed?
       * Some other brand has a sister model to compare to?
         
-  * Now it is possible to give a price rating based on these facts. -> Notification if rating is good
+  * It is possible to give a price rating based on these different facts. -> Notification to user if rating is above the set limit
 
 
-## Data sources and AI methods
+## Data sources
 
 Data would come example from vehicle sales portals. They might also have data about sold vehicles, but most of the times that data is only for commercial users who pay for it. There are also some operators who collect data and sell it for car dealers etc. (for example Netwheels in Finland). Maybe this program could also follow announcements when vehicles are published and/or sold? So we could get information on sales times, price history + price when sold... Of cource we still wouldn't know if seller gave discount or not, but at least we would know the asking price when vehicle left the market. There is also data available about vehicles with their VIN number: You are able to get for example technical and equipment information for most brands. Also local vehicle register data is available with VIN or register number of the car.
 
+
+## AI Methods
+
+Multiple different methods could be used:
+
+* **Nearest neighbour**  //  Find closest vehicles to compare to
+* **Neural networks**  //  Defining the price estimation based on vehicle data + market data + history data.
+  
 
 ## Challenges
 
