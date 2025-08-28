@@ -10,7 +10,7 @@ Scraper to find suitable vehicle announcements from the market as soon as they a
 
 ## Background
 
-If you want to find best deals from vehicle market, you have to be quick! First one to a contact a person who has just announced his/her vehicle on sale, is always close to getting the deal. However, manually crawling through vehicle sales announcements is very time consuming and new announcements appear all the time so you have to be updating the site all the time. Also prices are been changed from time to time and when it happens, vehicle should be re-evaluated. Portals might have search agents available, but usually their amount is limited and functionality is rather simple as well. Would be seuper useful if there was some automated scraper + classifier for announcements, which would check announcements right after they are published and notify when some vehicle fits the criteria.
+If you want to find best deals from vehicle market, you have to be quick! First one to contact a person who has just announced his/her vehicle on sale, is always close to getting the deal. However, manually crawling through vehicle sales announcements is very time consuming and new announcements appear all the time so you have to be updating the site all the time. Also prices are been changed from time to time and when it happens, vehicle should be re-evaluated. Portals might have search agents available, but usually their amount is limited and functionality is rather simple as well. Would be super useful if there was some automated scraper + classifier for announcements, which would check announcements right after they are published and notify when some vehicle fits the criteria.
 
 
 ## How is it used?
